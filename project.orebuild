@@ -1,0 +1,8 @@
+library "Mova";
+watch "src/**.hpp";
+
+// flags "-DDEBUG -fsanitize=leak";
+
+output "html/index.html";
+flags "--preload-file Assets";
+compiler "emcc";
